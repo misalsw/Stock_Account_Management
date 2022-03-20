@@ -39,7 +39,7 @@ public class Stock {
 
 
     public int stock_value() {
-        stock_value = share_price*num_of_shares;
+        stock_value = share_price * num_of_shares;
         return stock_value;
     }
 
