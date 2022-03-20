@@ -36,6 +36,8 @@ public class Stock_Portfolio {
 
         stock_portfolio();
 
+        Account account = new Account();
+        account.debit(Stock.total_stocks_value);
     }
 
 }
